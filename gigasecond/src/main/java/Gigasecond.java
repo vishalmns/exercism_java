@@ -1,18 +1,21 @@
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.lang.Math;
 
 class Gigasecond {
+    private LocalDateTime birthday;
+    private long addSeconds = (long) Math.pow(10, 9);
 
     Gigasecond(LocalDate birthDate) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        this(birthDate.atStartOfDay()); // calls the other constructor by changing localDate to localDateTime
     }
 
     Gigasecond(LocalDateTime birthDateTime) {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        birthday = birthDateTime;
     }
 
     LocalDateTime getDate() {
-        throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return birthday.plusSeconds(addSeconds);
     }
 
 }

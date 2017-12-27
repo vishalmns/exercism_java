@@ -1,6 +1,6 @@
 
 
-class RomanNumeral {
+public class RomanNumeral {
     private int number;
     private String one = "I";
     private String five = "V";
@@ -72,8 +72,8 @@ class RomanNumeral {
                     romanNumber.append(one);
                 }
             } else if (untisPlace == 4) {
-                romanNumber.append(five);
                 romanNumber.append(one);
+                romanNumber.append(five);
             } else if (hundersPlace == 9) {
                 romanNumber.append(one);
                 romanNumber.append(ten);

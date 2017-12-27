@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TriangleTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2017-11-27T06:51:35" hostname="vishals-MacBook-Air.local" time="0.025">
+  <properties/>
+  <testcase name="verySmallTrianglesCanBeEquilateral" classname="TriangleTest" time="0.002"/>
+  <testcase name="isoscelesTrianglesHaveLastTwoSidesEqual" classname="TriangleTest" time="0.0"/>
+  <testcase name="trianglesWithOneUnequalSideAreNotEquilateral" classname="TriangleTest" time="0.0"/>
+  <testcase name="scaleneTrianglesHaveNoEqualSides" classname="TriangleTest" time="0.0"/>
+  <testcase name="trianglesWithNoEqualSidesAreNotEquilateral" classname="TriangleTest" time="0.0"/>
+  <testcase name="isoscelesTrianglesHaveFirstAndLastSidesEqual" classname="TriangleTest" time="0.001"/>
+  <testcase name="isoscelesTrianglesMustHaveAtLeastTwoEqualSides" classname="TriangleTest" time="0.0"/>
+  <testcase name="testSidesThatViolateTriangleInequalityAreNotScaleneEvenIfTheyAreAllDifferent" classname="TriangleTest" time="0.008"/>
+  <testcase name="trianglesWithAllSidesEqualAreNotScalene" classname="TriangleTest" time="0.0"/>
+  <testcase name="trianglesWithOneUnequalSideAreNotScalene" classname="TriangleTest" time="0.0"/>
+  <testcase name="equilateralTrianglesHaveEqualSides" classname="TriangleTest" time="0.0"/>
+  <testcase name="testSidesThatViolateTriangleInequalityAreNotIsoscelesEvenIfTwoAreEqual" classname="TriangleTest" time="0.001"/>
+  <testcase name="trianglesWithNoSizeAreIllegal" classname="TriangleTest" time="0.0"/>
+  <testcase name="isoscelesTrianglesHaveTwoFirstSidesEqual" classname="TriangleTest" time="0.0"/>
+  <testcase name="verySmallTrianglesCanBeIsosceles" classname="TriangleTest" time="0.0"/>
+  <testcase name="isoscelesTrianglesCanHaveAllSidesEqual" classname="TriangleTest" time="0.001"/>
+  <testcase name="verySmallTrianglesCanBeScalene" classname="TriangleTest" time="0.001"/>
+  <system-out><![CDATA[sum of two side is less than third side
+sum of two side is less than third side
+one of the side is zero
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
